@@ -1,0 +1,5 @@
+#!/bin/sh
+
+TEMPLATECONF=meta-sn/conf
+. oe-init-build-env sn
+unset TEMPLATECONF
